@@ -159,3 +159,4 @@ O script cria backup SQLite com integridade checada e igualdade lógica de schem
 Consulte `reports/auditoria.md`, `reports/matriz-funcionalidades.md` e `reports/testes.md` para evidências e itens não concluídos.
 #   c r m j s a  
  "# crmjsa" 
+"# crmjsa" 
