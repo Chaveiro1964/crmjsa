@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.log
+
+# Bancos com dados comerciais e cópias históricas não devem ir para Git.
+backend/jsa.db
+backend/backups/*
+backups/*
+
+# Saída de apply pode conter identificadores do projeto/organização.
+reports/*apply*.json
+
+supabase/.temp/

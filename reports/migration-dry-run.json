@@ -1,0 +1,97 @@
+{
+  "keys": {
+    "jsa-clientes": {
+      "json_valid": true,
+      "root_type": "list",
+      "items": 1262,
+      "objects": 1262,
+      "non_object_items": 0,
+      "duplicate_ids": 0
+    },
+    "jsa-codigos-nao-encontrados": {
+      "json_valid": true,
+      "root_type": "list",
+      "items": 1,
+      "objects": 1,
+      "non_object_items": 0,
+      "duplicate_ids": 0
+    },
+    "jsa-orcamentos": {
+      "json_valid": true,
+      "root_type": "list",
+      "items": 1,
+      "objects": 1,
+      "non_object_items": 0,
+      "duplicate_ids": 0
+    },
+    "jsa-produtos": {
+      "json_valid": true,
+      "root_type": "list",
+      "items": 5,
+      "objects": 5,
+      "non_object_items": 0,
+      "duplicate_ids": 0
+    },
+    "jsa-vendas": {
+      "json_valid": true,
+      "root_type": "list",
+      "items": 0,
+      "objects": 0,
+      "non_object_items": 0,
+      "duplicate_ids": 0
+    }
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "key": "jsa-clientes",
+      "warning": "Nomes/telefones repetidos foram contabilizados, não mesclados nem descartados."
+    }
+  ],
+  "source_counts": {
+    "jsa-clientes": 1262,
+    "jsa-codigos-nao-encontrados": 1,
+    "jsa-orcamentos": 1,
+    "jsa-produtos": 5,
+    "jsa-vendas": 0
+  },
+  "destination_counts_estimated": {
+    "clients": 1262,
+    "products": 5,
+    "sales": 0,
+    "sale_items": 0,
+    "quotes": 1,
+    "quote_items": 1,
+    "missing_codes": 1
+  },
+  "duplicate_name_groups": 27,
+  "duplicate_phone_groups": 19,
+  "source_sha256": "e7b57d94c0f7a7a177061436092cb8e3ecd763371d3eb491d82e7ab027d19405",
+  "source_file_name": "jsa.db",
+  "sqlite": {
+    "tables": [
+      "kv_store"
+    ],
+    "integrity_check": "ok",
+    "kv_rows": 5
+  },
+  "unknown_keys_preserved_in_legacy": [],
+  "keys_preserved_raw": 5,
+  "normalized_plan": {
+    "clients": 1262,
+    "products": 5,
+    "sales": 0,
+    "sale_items": 0,
+    "quotes": 1,
+    "quote_items": 1,
+    "missing_codes": 1
+  },
+  "mode": "dry_run",
+  "backup_file": "backups/jsa-pre-supabase-20261026T182500Z-c0032e.sqlite3",
+  "backup_file_sha256": "dd85bbe5abce7635e21c299072556070d70caeeae9d2978cda0e62ecfbe4fadf",
+  "backup_logically_verified": true,
+  "started_at": "2026-10-26T18:25:00.628880+00:00",
+  "applied": false,
+  "status": "dry_run_validated",
+  "note": "Nenhuma gravação foi feita no Supabase; backup SQLite criado e validado. Passe --apply após revisar o relatório."
+}

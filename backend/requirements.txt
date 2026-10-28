@@ -1,0 +1,2 @@
+# Execute da raiz do projeto; arquivo de lock com versões exatas.
+-r ../requirements.lock
