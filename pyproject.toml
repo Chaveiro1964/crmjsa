@@ -1,0 +1,2 @@
+[tool.vercel]
+entrypoint = "backend.你的主文件名:app"
